@@ -21,3 +21,19 @@ git log- to get history of recent commits
 git revert HEAD --no-edit-  to revert back from last commit
 
 git merge my1stbranch- merging branches to master
+
+
+
+
+
+cloning and forking:
+
+git clone
+git branch feature-add-color
+git checkout feature-add-color
+git add . - adds all untracked files into staging area
+git commit -sm 'adding red color feature'
+git checkout main && git merge feature-add-color
+git push origin main
+create pull requets for approval
+
