@@ -1,0 +1,23 @@
+### GIT ESSENTIAL COMMANDS AND USAGE
+
+git add filename-  adding file to git repo
+
+git config --global user.email "you@example.com".   --- to let git know about user details
+git config --global user.name "Your Name"
+
+
+git commit -m "added newfile"   commiting changes with comment
+
+git branch my1stbranch. || git branch - creating new branch and checking what branches we have
+
+git checkout my1stbranch- switch to new branch from active branch 
+
+echo 'Here is some text in my newfile.' >> newfile -- adding data into file
+
+git status- to check commits on our branches
+
+git log- to get history of recent commits
+
+git revert HEAD --no-edit-  to revert back from last commit
+
+git merge my1stbranch- merging branches to master
