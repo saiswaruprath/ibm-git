@@ -37,3 +37,12 @@ git checkout main && git merge feature-add-color
 git push origin main
 create pull requets for approval
 
+
+###DOCKER ESSENTIAL COMMANDS
+
+docker pull hello-world- pulls basic hellworld image
+docker images- images list gets showed
+docker run hello-world- image is ran as a container
+docker ps -a- shows list of containers
+docker container rm <containerid>- removes the container
+
